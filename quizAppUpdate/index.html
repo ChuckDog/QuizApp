@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<title>Quiz App</title>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="app/app.js"></script>
+		
+		<!-- services -->
+		<script src="app/services/quizService.js"></script>
+		
+		<!-- controllers -->
+		
+		<script src="app/controllers/quizController.js"></script>
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+	
+	<body ng-app='quizApp'>
+		<div class="container bg-info text-center">
+			<header>
+				<h1>Quiz App</h1>
+			</header>
+			
+			<div ng-view></div>
+			
+		</div>
+	</body>
+</html>

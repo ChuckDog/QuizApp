@@ -1,0 +1,97 @@
+{
+	"questions":[
+	  {
+	    "question": "What is the capital city of New Mexico?",
+	    "choice":
+	            [
+	              "Guadalajara",
+	              "Albuquerque",
+	              "Santa Fe",
+	              "Taos",
+				  "California",
+				  "Princeton"
+	            ],
+	    "answer": ["Santa Fe"]
+	  },
+	  {
+	    "question": "Who is the author of Algorithms(4th Edition)?",
+	    "choice":
+	            [
+	              "Mark Twain",
+	              "Shakespeare",
+	              "Abraham Lincoln",
+	              "Newton",
+				  "Robert Sedgewick",
+				  "Kevin Wayne"
+	            ],
+	    "answer": ["Robert Sedgewick","Kevin Wayne"]
+	  },
+	  {
+	    "question": "Who directed the movie Forrest Gump?",
+	    "choice":
+	            [
+	              "Martin Scorcese",
+	              "Tom Hanks",
+	              "Sam Mendes",
+	              "Robert Zemeckis"
+	            ],
+	    "answer": ["Robert Zemeckis"]
+	  },
+	  {
+	    "question": "When is going to be the next summer olympics?",
+	    "choice":
+	            [
+	              2014,
+	              2015,
+	              2016,
+	              2017
+	            ],
+	    "answer": [2016]
+	  },
+	  {
+	    "question": "Who plays the role of James Bond and Bond Girl in the movie 'The Spy Who Loved Me'?",
+	    "choice":
+	            [
+	              "Roger Moore",
+	              "Sean Connery",
+	              "Daniel Craig",
+				  "Barbara Bach",
+	              "Pierce Brosnan"
+	            ],
+	    "answer": ["Roger Moore","Barbara Bach"]
+	  },
+	  {
+	    "question": "A front-end developer works with languages like?",
+	    "choice":
+	            [
+	              "PHP",
+	              "HTML",
+	              "CSS",
+				  "JavaScript",
+				  "Java"
+	            ],
+	    "answer": ["HTML","CSS","JavaScript"]
+	  },
+	  {
+	    "question": "When you use very big font-sizes, you should:",
+	    "choice":
+	            [
+	              "Decrease font weight",
+	              "Make text bold",
+	              "Increase line height"
+	            ],
+	    "answer": ["Decrease font weight"]
+	  },
+	  {
+	    "question": "Which HTML attribute is used to reference an external JavaScript file?",
+	    "choice":
+	            [
+	              "src",
+	              "rel",
+	              "type",
+				  "href"
+	            ],
+	    "answer": ["src"]
+	  }
+	]
+}

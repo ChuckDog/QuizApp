@@ -1,0 +1,19 @@
+<div class="panel panel-success">
+
+	<a href="#/quiz4" class="btn btn-info btn-lg pull-left" ng-click='getAns()'>
+	  <span class="glyphicon glyphicon-chevron-left"></span> Left
+	</a>
+	
+	<a href="#/quiz1" class="btn btn-info btn-lg pull-right" ng-click='getAns()'>
+	  <span class="glyphicon glyphicon-chevron-right"></span> Right
+	</a>
+	
+	<h4 class="panel-head">5.) {{ question.question }}</h4>
+	<div class="panel-body">
+		<div class="checkbox">
+			<label class="checkbox-inline" ng-repeat='choice in choice'><input type="checkbox" value="{{ choice }}">{{ choice }}</label>
+		</div>
+	</div>
+	
+	<a href='#/results' type="button" class="btn btn-primary md" ng-click='getAns()'>View Result</a>
+</div>

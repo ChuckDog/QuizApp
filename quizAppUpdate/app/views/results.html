@@ -1,0 +1,54 @@
+<div class="panel panel-default">
+	<h1 class="panel-heading">Results</h1>
+	<div class="panel-body">
+		<p>
+			<span class="col-md-8"><b># Questions</b></span>
+			<span class="col-md-2"><b>Selected Answer</b></span>
+			<span class="col-md-2"><b>Actual Answer</b></span>
+		</p>
+		
+		<p id="p1">
+			<span class="col-md-8">{{ quesOne }}</span>
+			<span class="col-md-2"><span ng-repeat='ans in ansOne'> {{ ans }} ; </span></span>
+			<span class="col-md-2"><span ng-repeat='ques in rightAnsOne'>{{ ques }} ; </span></span>
+		</p>
+		
+		<p id="p2">
+			<span class="col-md-8">{{ quesTwo }}</span>
+			<span class="col-md-2"><span ng-repeat='ans in ansTwo'> {{ ans }} ; </span></span>
+			<span class="col-md-2"><span ng-repeat='ques in rightAnsTwo'>{{ ques }} ; </span></span>
+		</p>
+		
+		<p id="p3">
+			<span class="col-md-8">{{ quesThree }}</span>
+			<span class="col-md-2"><span ng-repeat='ans in ansThree'> {{ ans }} ; </span></span>
+			<span class="col-md-2"><span ng-repeat='ques in rightAnsThree'>{{ ques }} ; </span></span>
+		</p>
+		
+		<p id="p4">
+			<span class="col-md-8">{{ quesFour }}</span>
+			<span class="col-md-2"><span ng-repeat='ans in ansFour'> {{ ans }} ; </span></span>
+			<span class="col-md-2"><span ng-repeat='ques in rightAnsFour'>{{ ques }} ; </span></span>
+		</p>
+		
+		<p id="p5">
+			<span class="col-md-8">{{ quesFive }}</span>
+		<span class="col-md-2"><span ng-repeat='ans in ansFive'> {{ ans }} ; </span></span>
+			<span class="col-md-2"><span ng-repeat='ques in rightAnsFive'>{{ ques }} ; </span></span>
+		</p>
+	</div>
+	
+	<a href='#/quiz1' class="btn btn-danger btn-lg">Close</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
